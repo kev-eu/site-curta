@@ -63,12 +63,14 @@ export default function App() {
 
             <h3 className="text-2xl font-semibold text-cyan-400">Sinopse</h3>
             <p className="text-justify">
-              Uma agente russa, disfarçada de estudante, se infiltra no IFPB, no
-              sertão da Paraíba, com uma missão: investigar e acabar com uma
-              seita misteriosa que atua dentro do campus. Lá, ela se aproxima de
-              um colega carismático, que vira seu principal aliado. Mas, com o
-              tempo, ela descobre que seu maior amigo pode ser também seu maior
-              inimigo, movido por vingança e sede de poder.
+              Uma agente russa, disfarçada de estudante, se infiltra no IFPB, bem
+              no sertão da Paraíba, com uma missão: investigar e acabar com uma
+              seita misteriosa que atua dentro do campus. Lá, ela acaba se
+              aproximando de um colega de turma carismático, que vira sua
+              principal fonte de informações e o seu melhor amigo, em quem ela
+              realmente confia. À medida que as coisas avançam, ela percebe que
+              seu maior aliado pode ser também seu maior inimigo, e que ele está
+              jogando seu próprio jogo, movido por vingança e sede de poder.
             </p>
           </motion.section>
         )}
@@ -90,10 +92,16 @@ export default function App() {
                 Ato I — A Infiltração
               </h3>
               <p>
-                Livotsky chega em Cajazeiras com uma identidade bem montada. Ela
-                começa investigando sozinha, mas acaba conhecendo um aluno
-                sociável que oferece ajuda. Aos poucos, eles criam uma relação
-                de confiança.
+                Livotsky chega em Cajazeiras com uma identidade e um passado bem
+                montado, com um objetivo bem definido: descobrir quem está por
+                trás de uma seita que opera de forma discreta dentro do IFPB.
+                Inicialmente, ela age sozinha, investigando com cuidado, ouvindo
+                conversas pelos corredores e achando pistas escondidas, como
+                símbolos estranhos em livros antigos da biblioteca e em paredes
+                ao redor do campus. No meio disso tudo, ela conhece um aluno bem
+                sociável e popular, que se oferece para ajudá-la. Aos poucos,
+                os dois criam uma relação de confiança, e ele começa a participar
+                da investigação.
               </p>
             </div>
 
@@ -102,9 +110,23 @@ export default function App() {
                 Ato II — A Conspiração
               </h3>
               <p>
-                Ela descobre que a seita funciona como uma sociedade secreta. O
-                amigo parece saber demais, levantando dúvidas. Mesmo assim, ela
-                insiste em confiar nele, trazendo sérias consequências.
+                Ela descobre que a seita, na verdade, funciona como uma
+                sociedade secreta disfarçada de um grupo de prestígio. Essa
+                organização realiza um baile anual, que homenageia o "melhor
+                aluno do ano", despertando interesse entre os alunos, mas essa
+                honraria, na verdade, é o disfarce para um ritual sombrio. O
+                "aluno perfeito" é justamente o escolhido como rei do baile, se
+                tornando uma vítima da seita. Livotsky continua investigando ao
+                lado do amigo, mas alguns sinais começam a incomodá-la: ele sabe
+                demais, dizendo coisas que alguém desinformado não deveria
+                saber, sempre aparece na hora certa, e parece estar manipulando
+                as coisas para levá-la a certas conclusões. Mesmo assim, ela
+                insiste em confiar nele, trazendo sérias consequências. O que ela
+                não sabe é que ele está usando a investigação para atingir um
+                objetivo pessoal, se vingar da morte do irmão (uma vítima
+                passada da seita) e tomar o controle do grupo para si, estando
+                obcecado pelo poder que o controle da organização
+                proporcionaria: bons empregos, contatos e poder na região.
               </p>
             </div>
 
@@ -113,9 +135,13 @@ export default function App() {
                 Ato III — A Revelação
               </h3>
               <p>
-                No clímax, Livotsky invade o local da seita e acha documentos
-                secretos. Mas o amigo revela seu verdadeiro plano: usar a
-                investigação para tomar o controle da organização.
+                O clímax acontece quando os dois invadem o lugar onde a seita
+                guarda os registros e segredos. Lá, eles encontram uma caixa com
+                documentos, listas de membros e tudo que pode expor a
+                organização. Quando Livotsky acha que venceu e que sua missão
+                chegou ao fim, o amigo revela suas verdadeiras intenções. Ele
+                não era só contra a seita, tinha seu próprio plano, e ela era só
+                uma peça que ele usou pra chegar até o poder da seita.
               </p>
             </div>
           </motion.section>
@@ -141,6 +167,18 @@ export default function App() {
             >
               Preencher Formulário
             </a>
+          </motion.section>
+        )}
+      </main>
+
+      {/* Footer */}
+      <footer className="text-center text-gray-400 py-6 text-sm">
+        © 2025 Curta "A Espiã" — Produzido por alunos do IFPB
+      </footer>
+    </div>
+  );
+}
+ </a>
           </motion.section>
         )}
       </main>
